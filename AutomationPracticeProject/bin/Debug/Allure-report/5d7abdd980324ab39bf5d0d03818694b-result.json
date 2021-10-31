@@ -1,0 +1,88 @@
+{
+  "uuid": "be747e38-4e84-412b-bddd-580871a5eaeb-tr-0-1024",
+  "historyId": "AutomationPracticeProject.TestCases.ApiTestCases.Search.Plp.ProductsAreDisplayedOnPageAccordingToSearch",
+  "fullName": "AutomationPracticeProject.TestCases.ApiTestCases.Search.Plp.ProductsAreDisplayedOnPageAccordingToSearch",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "15"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Pro-Aleksandra"
+    },
+    {
+      "name": "testClass",
+      "value": "AutomationPracticeProject.TestCases.ApiTestCases.Search.Plp"
+    },
+    {
+      "name": "testMethod",
+      "value": "ProductsAreDisplayedOnPageAccordingToSearch"
+    },
+    {
+      "name": "package",
+      "value": "AutomationPracticeProject.TestCases.ApiTestCases.Search.Plp"
+    },
+    {
+      "name": "tag",
+      "value": "High"
+    }
+  ],
+  "links": [],
+  "name": "ProductsAreDisplayedOnPageAccordingToSearch",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.DriverServiceNotFoundException : The file /Volumes/MacHDData/SelfStuding/TeamCity/AutomationPracticeProject/bin/Debug/../../Drivers/chromedriver does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html",
+    "trace": "  at OpenQA.Selenium.DriverService..ctor (System.String servicePath, System.Int32 port, System.String driverServiceExecutableName, System.Uri driverServiceDownloadUrl) [0x0005c] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriverService..ctor (System.String executablePath, System.String executableFileName, System.Int32 port) [0x00033] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService (System.String driverPath, System.String driverExecutableFileName) [0x00007] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService (System.String driverPath) [0x00006] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriver..ctor (System.String chromeDriverDirectory, OpenQA.Selenium.Chrome.ChromeOptions options, System.TimeSpan commandTimeout) [0x00000] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriver..ctor (System.String chromeDriverDirectory, OpenQA.Selenium.Chrome.ChromeOptions options) [0x00000] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriver..ctor (System.String chromeDriverDirectory) [0x00007] in <19027cc8501444099501b87290061165>:0 \n  at AutomationPracticeProject.WrapperFactory.WebDriverFactory.InitBrowser (System.String browserName) [0x000aa] in /Volumes/MacHDData/SelfStuding/TeamCity/AutomationPracticeProject/WrapperFactory/WebDriverFactory.cs:53 \n  at AutomationPracticeProject.TestCases.BaseTest.SetUpTest () [0x00026] in /Volumes/MacHDData/SelfStuding/TeamCity/AutomationPracticeProject/TestCases/BaseTest.cs:23 \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in /Users/builder/jenkins/workspace/build-package-osx-mono/2020-02/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/RuntimeMethodInfo.cs:395 "
+  },
+  "stage": "finished",
+  "description": "\nSetUpTest SetUp method failed\n",
+  "steps": [
+    {
+      "name": "ProductsAreDisplayedOnPageAccordingToSearch skipped because of SetUpTest failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.DriverServiceNotFoundException : The file /Volumes/MacHDData/SelfStuding/TeamCity/AutomationPracticeProject/bin/Debug/../../Drivers/chromedriver does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html",
+        "trace": "  at OpenQA.Selenium.DriverService..ctor (System.String servicePath, System.Int32 port, System.String driverServiceExecutableName, System.Uri driverServiceDownloadUrl) [0x0005c] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriverService..ctor (System.String executablePath, System.String executableFileName, System.Int32 port) [0x00033] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService (System.String driverPath, System.String driverExecutableFileName) [0x00007] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService (System.String driverPath) [0x00006] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriver..ctor (System.String chromeDriverDirectory, OpenQA.Selenium.Chrome.ChromeOptions options, System.TimeSpan commandTimeout) [0x00000] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriver..ctor (System.String chromeDriverDirectory, OpenQA.Selenium.Chrome.ChromeOptions options) [0x00000] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriver..ctor (System.String chromeDriverDirectory) [0x00007] in <19027cc8501444099501b87290061165>:0 \n  at AutomationPracticeProject.WrapperFactory.WebDriverFactory.InitBrowser (System.String browserName) [0x000aa] in /Volumes/MacHDData/SelfStuding/TeamCity/AutomationPracticeProject/WrapperFactory/WebDriverFactory.cs:53 \n  at AutomationPracticeProject.TestCases.BaseTest.SetUpTest () [0x00026] in /Volumes/MacHDData/SelfStuding/TeamCity/AutomationPracticeProject/TestCases/BaseTest.cs:23 \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in /Users/builder/jenkins/workspace/build-package-osx-mono/2020-02/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/RuntimeMethodInfo.cs:395 "
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Browser closed.",
+          "status": "none",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1635688183197,
+          "stop": 1635688183198
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "87597a1faeba4774a4ba102a32f97284-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1635688182934,
+      "stop": 1635688183211
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1635688182931,
+  "stop": 1635688183223
+}

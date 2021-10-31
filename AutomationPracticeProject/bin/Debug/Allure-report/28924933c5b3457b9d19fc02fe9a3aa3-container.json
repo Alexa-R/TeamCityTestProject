@@ -1,0 +1,46 @@
+{
+  "uuid": "ffab2853-d8d5-487c-a698-d6978c124dd5-tc-0-1006",
+  "name": "AutomationPracticeProject.TestCases.UiTestCases.PLP.AddProduct.AddProductToCartFromSearchPlp",
+  "children": [
+    "9623ee1c-12dc-4fa4-8180-015d9e0e9d4a-tr-0-1008"
+  ],
+  "befores": [
+    {
+      "name": "SetUpTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.DriverServiceNotFoundException : The file /Volumes/MacHDData/SelfStuding/TeamCity/AutomationPracticeProject/bin/Debug/../../Drivers/chromedriver does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html",
+        "trace": "  at OpenQA.Selenium.DriverService..ctor (System.String servicePath, System.Int32 port, System.String driverServiceExecutableName, System.Uri driverServiceDownloadUrl) [0x0005c] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriverService..ctor (System.String executablePath, System.String executableFileName, System.Int32 port) [0x00033] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService (System.String driverPath, System.String driverExecutableFileName) [0x00007] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService (System.String driverPath) [0x00006] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriver..ctor (System.String chromeDriverDirectory, OpenQA.Selenium.Chrome.ChromeOptions options, System.TimeSpan commandTimeout) [0x00000] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriver..ctor (System.String chromeDriverDirectory, OpenQA.Selenium.Chrome.ChromeOptions options) [0x00000] in <19027cc8501444099501b87290061165>:0 \n  at OpenQA.Selenium.Chrome.ChromeDriver..ctor (System.String chromeDriverDirectory) [0x00007] in <19027cc8501444099501b87290061165>:0 \n  at AutomationPracticeProject.WrapperFactory.WebDriverFactory.InitBrowser (System.String browserName) [0x000aa] in /Volumes/MacHDData/SelfStuding/TeamCity/AutomationPracticeProject/WrapperFactory/WebDriverFactory.cs:53 \n  at AutomationPracticeProject.TestCases.BaseTest.SetUpTest () [0x00026] in /Volumes/MacHDData/SelfStuding/TeamCity/AutomationPracticeProject/TestCases/BaseTest.cs:23 \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in /Users/builder/jenkins/workspace/build-package-osx-mono/2020-02/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/RuntimeMethodInfo.cs:395 "
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1635688183340,
+      "stop": 1635688183340
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDownTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1635688183340,
+      "stop": 1635688183340
+    }
+  ],
+  "links": [],
+  "start": 1635688183338,
+  "stop": 1635688183344
+}
